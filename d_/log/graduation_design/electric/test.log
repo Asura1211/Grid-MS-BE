@@ -1,0 +1,484 @@
+2022-10-12 15:53:44.365 [32mINFO [m [restartedMain] [32mo.e.StartElectricApplication.logStartupProfileInfo(651)[m: No active profile set, falling back to default profiles: default
+2022-10-12 15:53:46.941 [36mDEBUG[m [restartedMain] [36md.s.Connection.connectionLog(132)[m: {conn-10001,procId-26} connected
+2022-10-12 15:53:46.945 [36mDEBUG[m [restartedMain] [36md.s.Connection.connectionLog(132)[m: {conn-10002,procId-27} connected
+2022-10-12 15:53:46.949 [32mINFO [m [restartedMain] [32mc.a.d.p.DruidDataSource.info(106)[m: {dataSource-1} inited
+2022-10-12 15:53:46.986 [36mDEBUG[m [restartedMain] [36mo.j.logging.logProvider(152)[m: Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-10-12 15:53:47.003 [36mDEBUG[m [restartedMain] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-connect
+2022-10-12 15:53:47.010 [36mDEBUG[m [restartedMain] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-recycle
+2022-10-12 15:53:47.043 [36mDEBUG[m [task-1] [36mo.h.j.i.u.LogHelper.logPersistenceUnitInformation(102)[m: PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6967b6a3
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: {
+	CreateTime:"2022-10-12 15:53:46",
+	ActiveCount:0,
+	PoolingCount:2,
+	CreateCount:2,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:1,
+	Connections:[
+		{ID:264027430, ConnectTime:"2022-10-12 15:53:46", UseCount:0, LastActiveTime:"2022-10-12 15:53:46"},
+		{ID:1059108758, ConnectTime:"2022-10-12 15:53:46", UseCount:1, LastActiveTime:"2022-10-12 15:53:47"}
+	]
+}
+
+[
+	{
+	ID:264027430, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1059108758, 
+	poolStatements:[
+		]
+	}
+]
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		org.electric.model.DetectedDevicePicture
+		org.electric.model.DetectedQualityPicture]
+	Mapping files names []
+	Properties []
+2022-10-12 15:53:47.053 [36mDEBUG[m [task-1] [36mo.h.i.i.IntegratorServiceImpl.addIntegrator(46)[m: Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-10-12 15:53:47.056 [36mDEBUG[m [task-1] [36mo.h.i.i.IntegratorServiceImpl.addIntegrator(46)[m: Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-10-12 15:53:47.059 [36mDEBUG[m [task-1] [36mo.h.i.i.IntegratorServiceImpl.addIntegrator(46)[m: Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-10-12 15:53:47.087 [32mINFO [m [task-1] [32mo.h.Version.logVersion(44)[m: HHH000412: Hibernate ORM core version 5.4.22.Final
+2022-10-12 15:53:47.088 [36mDEBUG[m [task-1] [36mo.h.c.Environment.<clinit>(199)[m: HHH000206: hibernate.properties not found
+2022-10-12 15:53:47.175 [36mDEBUG[m [task-1] [36mo.h.s.s.ServiceBinding.setService(68)[m: Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2022-10-12 15:53:47.187 [36mDEBUG[m [task-1] [36mo.h.c.i.RegionFactoryInitiator.resolveRegionFactory(118)[m: Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2022-10-12 15:53:47.188 [36mDEBUG[m [task-1] [36mo.h.c.i.RegionFactoryInitiator.initiateService(49)[m: Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2022-10-12 15:53:47.204 [32mINFO [m [task-1] [32mo.h.a.c.Version.<clinit>(49)[m: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 15:53:47.258 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration boolean -> org.hibernate.type.BooleanType@1510ed7b
+2022-10-12 15:53:47.260 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration boolean -> org.hibernate.type.BooleanType@1510ed7b
+2022-10-12 15:53:47.260 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1510ed7b
+2022-10-12 15:53:47.260 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2669b53e
+2022-10-12 15:53:47.261 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration true_false -> org.hibernate.type.TrueFalseType@59be3716
+2022-10-12 15:53:47.261 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration yes_no -> org.hibernate.type.YesNoType@1c482b4b
+2022-10-12 15:53:47.262 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration byte -> org.hibernate.type.ByteType@1ec6e8cf
+2022-10-12 15:53:47.262 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration byte -> org.hibernate.type.ByteType@1ec6e8cf
+2022-10-12 15:53:47.262 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1ec6e8cf
+2022-10-12 15:53:47.263 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration character -> org.hibernate.type.CharacterType@7c7ad8bf
+2022-10-12 15:53:47.263 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration char -> org.hibernate.type.CharacterType@7c7ad8bf
+2022-10-12 15:53:47.263 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7c7ad8bf
+2022-10-12 15:53:47.264 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration short -> org.hibernate.type.ShortType@3e7aacaa
+2022-10-12 15:53:47.264 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration short -> org.hibernate.type.ShortType@3e7aacaa
+2022-10-12 15:53:47.264 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3e7aacaa
+2022-10-12 15:53:47.265 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration integer -> org.hibernate.type.IntegerType@221e3daf
+2022-10-12 15:53:47.265 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration int -> org.hibernate.type.IntegerType@221e3daf
+2022-10-12 15:53:47.265 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@221e3daf
+2022-10-12 15:53:47.266 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration long -> org.hibernate.type.LongType@63b1605d
+2022-10-12 15:53:47.266 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration long -> org.hibernate.type.LongType@63b1605d
+2022-10-12 15:53:47.266 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Long -> org.hibernate.type.LongType@63b1605d
+2022-10-12 15:53:47.267 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration float -> org.hibernate.type.FloatType@60ef27d4
+2022-10-12 15:53:47.267 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration float -> org.hibernate.type.FloatType@60ef27d4
+2022-10-12 15:53:47.267 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Float -> org.hibernate.type.FloatType@60ef27d4
+2022-10-12 15:53:47.267 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration double -> org.hibernate.type.DoubleType@1f1347ab
+2022-10-12 15:53:47.267 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration double -> org.hibernate.type.DoubleType@1f1347ab
+2022-10-12 15:53:47.268 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1f1347ab
+2022-10-12 15:53:47.268 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2de2cb44
+2022-10-12 15:53:47.268 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2de2cb44
+2022-10-12 15:53:47.268 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration big_integer -> org.hibernate.type.BigIntegerType@32b7b39d
+2022-10-12 15:53:47.269 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@32b7b39d
+2022-10-12 15:53:47.270 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration string -> org.hibernate.type.StringType@203aed46
+2022-10-12 15:53:47.270 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.String -> org.hibernate.type.StringType@203aed46
+2022-10-12 15:53:47.270 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration nstring -> org.hibernate.type.StringNVarcharType@15e8c26c
+2022-10-12 15:53:47.270 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1d2ef0ee
+2022-10-12 15:53:47.271 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration url -> org.hibernate.type.UrlType@31321a65
+2022-10-12 15:53:47.271 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.net.URL -> org.hibernate.type.UrlType@31321a65
+2022-10-12 15:53:47.271 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration Duration -> org.hibernate.type.DurationType@29fddbc2
+2022-10-12 15:53:47.272 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.Duration -> org.hibernate.type.DurationType@29fddbc2
+2022-10-12 15:53:47.272 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration Instant -> org.hibernate.type.InstantType@15919bee
+2022-10-12 15:53:47.272 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.Instant -> org.hibernate.type.InstantType@15919bee
+2022-10-12 15:53:47.273 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@b9f905
+2022-10-12 15:53:47.273 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@b9f905
+2022-10-12 15:53:47.274 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration LocalDate -> org.hibernate.type.LocalDateType@c94cbaa
+2022-10-12 15:53:47.274 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@c94cbaa
+2022-10-12 15:53:47.274 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3633ea55
+2022-10-12 15:53:47.275 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3633ea55
+2022-10-12 15:53:47.275 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@497cbbda
+2022-10-12 15:53:47.275 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@497cbbda
+2022-10-12 15:53:47.276 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6876f6e1
+2022-10-12 15:53:47.276 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6876f6e1
+2022-10-12 15:53:47.278 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49509fbf
+2022-10-12 15:53:47.278 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@49509fbf
+2022-10-12 15:53:47.279 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration date -> org.hibernate.type.DateType@50f060e7
+2022-10-12 15:53:47.279 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.Date -> org.hibernate.type.DateType@50f060e7
+2022-10-12 15:53:47.280 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration time -> org.hibernate.type.TimeType@4b147220
+2022-10-12 15:53:47.280 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4b147220
+2022-10-12 15:53:47.280 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration timestamp -> org.hibernate.type.TimestampType@2317e75b
+2022-10-12 15:53:47.281 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2317e75b
+2022-10-12 15:53:47.281 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2317e75b
+2022-10-12 15:53:47.282 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3dbce49b
+2022-10-12 15:53:47.282 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration calendar -> org.hibernate.type.CalendarType@1d968a9e
+2022-10-12 15:53:47.283 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1d968a9e
+2022-10-12 15:53:47.283 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1d968a9e
+2022-10-12 15:53:47.283 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@23b1e3e9
+2022-10-12 15:53:47.283 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@7d5ce12f
+2022-10-12 15:53:47.284 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration locale -> org.hibernate.type.LocaleType@76063982
+2022-10-12 15:53:47.284 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@76063982
+2022-10-12 15:53:47.285 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration currency -> org.hibernate.type.CurrencyType@10938863
+2022-10-12 15:53:47.285 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@10938863
+2022-10-12 15:53:47.285 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration timezone -> org.hibernate.type.TimeZoneType@3fe026eb
+2022-10-12 15:53:47.285 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3fe026eb
+2022-10-12 15:53:47.286 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration class -> org.hibernate.type.ClassType@762984b6
+2022-10-12 15:53:47.286 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Class -> org.hibernate.type.ClassType@762984b6
+2022-10-12 15:53:47.286 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@517925cd
+2022-10-12 15:53:47.286 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@517925cd
+2022-10-12 15:53:47.286 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@33d1c999
+2022-10-12 15:53:47.290 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration binary -> org.hibernate.type.BinaryType@e0a10a3
+2022-10-12 15:53:47.291 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration byte[] -> org.hibernate.type.BinaryType@e0a10a3
+2022-10-12 15:53:47.291 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration [B -> org.hibernate.type.BinaryType@e0a10a3
+2022-10-12 15:53:47.292 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@37b18e98
+2022-10-12 15:53:47.292 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@37b18e98
+2022-10-12 15:53:47.292 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@37b18e98
+2022-10-12 15:53:47.292 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration row_version -> org.hibernate.type.RowVersionType@3c228d53
+2022-10-12 15:53:47.292 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration image -> org.hibernate.type.ImageType@561a5d7c
+2022-10-12 15:53:47.293 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration characters -> org.hibernate.type.CharArrayType@50ba597b
+2022-10-12 15:53:47.293 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration char[] -> org.hibernate.type.CharArrayType@50ba597b
+2022-10-12 15:53:47.293 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration [C -> org.hibernate.type.CharArrayType@50ba597b
+2022-10-12 15:53:47.294 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@62dd4d62
+2022-10-12 15:53:47.294 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@62dd4d62
+2022-10-12 15:53:47.294 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@62dd4d62
+2022-10-12 15:53:47.294 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration text -> org.hibernate.type.TextType@6a0e66f1
+2022-10-12 15:53:47.294 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration ntext -> org.hibernate.type.NTextType@a760371
+2022-10-12 15:53:47.295 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration blob -> org.hibernate.type.BlobType@1552f2de
+2022-10-12 15:53:47.295 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1552f2de
+2022-10-12 15:53:47.295 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@519aebed
+2022-10-12 15:53:47.296 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration clob -> org.hibernate.type.ClobType@48857cb6
+2022-10-12 15:53:47.296 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@48857cb6
+2022-10-12 15:53:47.296 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration nclob -> org.hibernate.type.NClobType@54493a83
+2022-10-12 15:53:47.297 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@54493a83
+2022-10-12 15:53:47.300 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@27b73388
+2022-10-12 15:53:47.301 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@15e21304
+2022-10-12 15:53:47.303 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration serializable -> org.hibernate.type.SerializableType@2b753216
+2022-10-12 15:53:47.305 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration object -> org.hibernate.type.ObjectType@661940c7
+2022-10-12 15:53:47.305 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@661940c7
+2022-10-12 15:53:47.305 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1deebdda
+2022-10-12 15:53:47.305 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@315dd9d8
+2022-10-12 15:53:47.305 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2cdc8876
+2022-10-12 15:53:47.306 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6eddb1cc
+2022-10-12 15:53:47.306 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6b5d1a0
+2022-10-12 15:53:47.306 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@59795bb7
+2022-10-12 15:53:47.306 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@112ef7d6
+2022-10-12 15:53:47.306 [36mDEBUG[m [task-1] [36mo.h.t.BasicTypeRegistry.register(157)[m: Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@12fe67ee
+2022-10-12 15:53:47.315 [36mDEBUG[m [task-1] [36mo.h.b.i.BootstrapContextImpl.injectJpaTempClassLoader(262)[m: Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a545ea5] into BootstrapContext; was [null]
+2022-10-12 15:53:47.315 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.injectTempClassLoader(45)[m: ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a545ea5) [was null]
+2022-10-12 15:53:47.316 [36mDEBUG[m [task-1] [36mo.h.b.i.BootstrapContextImpl.injectScanEnvironment(272)[m: Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@22c15cb5] into BootstrapContext; was [null]
+2022-10-12 15:53:47.316 [36mDEBUG[m [task-1] [36mo.h.b.i.BootstrapContextImpl.injectScanOptions(267)[m: Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@71c31a7a] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5e752735]
+2022-10-12 15:53:47.327 [36mDEBUG[m [task-1] [36mo.h.b.i.BootstrapContextImpl.injectJpaTempClassLoader(262)[m: Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a545ea5]
+2022-10-12 15:53:47.329 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.injectTempClassLoader(45)[m: ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a545ea5]
+2022-10-12 15:53:47.335 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-10-12 15:53:47.353 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-10-12 15:53:47.370 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-10-12 15:53:47.371 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-10-12 15:53:47.372 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-10-12 15:53:47.373 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-10-12 15:53:47.373 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-10-12 15:53:47.375 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-10-12 15:53:47.378 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-10-12 15:53:47.381 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-10-12 15:53:47.382 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-10-12 15:53:47.385 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-10-12 15:53:47.386 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-10-12 15:53:47.388 [36mDEBUG[m [task-1] [36mo.h.i.f.i.DefaultIdentifierGeneratorFactory.register(81)[m: Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-10-12 15:53:47.416 [36mDEBUG[m [task-1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-connect
+2022-10-12 15:53:47.419 [36mDEBUG[m [task-1] [36mo.h.e.j.e.i.JdbcEnvironmentInitiator.initiateService(72)[m: Database ->
+       name : MySQL
+    version : 8.0.30
+      major : 8
+      minor : 0
+2022-10-12 15:53:47.420 [36mDEBUG[m [task-1] [36mo.h.e.j.e.i.JdbcEnvironmentInitiator.initiateService(83)[m: Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.20 (Revision: afc0a13cd3c5a0bf57eaa809ee0ee6df1fd5ac9b)
+      major : 8
+      minor : 0
+2022-10-12 15:53:47.421 [36mDEBUG[m [task-1] [36mo.h.e.j.e.i.JdbcEnvironmentInitiator.debugf(389)[m: JDBC version : 4.2
+2022-10-12 15:53:47.433 [32mINFO [m [task-1] [32mo.h.d.Dialect.<init>(170)[m: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-12 15:53:47.444 [36mDEBUG[m [task-1] [36mo.h.e.j.e.s.IdentifierHelperBuilder.applyIdentifierCasing(113)[m: JDBC driver metadata reported database stores quoted identifiers in more than one case
+2022-10-12 15:53:47.475 [36mDEBUG[m [task-1] [36mo.h.e.j.e.s.IdentifierHelperBuilder.build(187)[m: IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2022-10-12 15:53:47.508 [36mDEBUG[m [task-1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-recycle
+2022-10-12 15:53:47.511 [36mDEBUG[m [task-1] [36mo.h.b.m.r.Namespace.<init>(51)[m: Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2022-10-12 15:53:47.513 [36mDEBUG[m [task-1] [36mo.h.t.s.TypeConfiguration$Scope.scope(152)[m: Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7ad237e4] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@593195a]
+2022-10-12 15:53:47.526 [36mDEBUG[m [task-1] [36mo.h.c.AnnotationBinder.bindClass(556)[m: Binding entity from annotated class: org.electric.model.DetectedDevicePicture
+2022-10-12 15:53:47.538 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-10-12 15:53:47.540 [36mDEBUG[m [task-1] [36mo.h.c.a.EntityBinder.bindEntity(430)[m: Import with entity name DetectedDevicePicture
+2022-10-12 15:53:47.542 [36mDEBUG[m [task-1] [36mo.h.c.a.EntityBinder.bindTable(873)[m: Bind entity org.electric.model.DetectedDevicePicture on table detected_device_picture
+2022-10-12 15:53:47.554 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_device_picture), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.555 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property id with lazy=false
+2022-10-12 15:53:47.556 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedDevicePicture:id]
+2022-10-12 15:53:47.557 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for id
+2022-10-12 15:53:47.562 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property id
+2022-10-12 15:53:47.565 [36mDEBUG[m [task-1] [36mo.h.c.BinderHelper.makeIdGenerator(644)[m: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, uuid, ...)
+2022-10-12 15:53:47.565 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_device_picture), mappingColumn=detected_bin_data, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.566 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property detectedBinData with lazy=false
+2022-10-12 15:53:47.568 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedDevicePicture:detectedBinData]
+2022-10-12 15:53:47.568 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for detectedBinData
+2022-10-12 15:53:47.568 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property detectedBinData
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_device_picture), mappingColumn=detected_picture_url, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property detectedPictureUrl with lazy=false
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedDevicePicture:detectedPictureUrl]
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for detectedPictureUrl
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property detectedPictureUrl
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_device_picture), mappingColumn=device_picture_id, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.569 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property devicePictureId with lazy=false
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedDevicePicture:devicePictureId]
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for devicePictureId
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property devicePictureId
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_device_picture), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property name with lazy=false
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedDevicePicture:name]
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for name
+2022-10-12 15:53:47.570 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property name
+2022-10-12 15:53:47.571 [36mDEBUG[m [task-1] [36mo.h.c.AnnotationBinder.bindClass(556)[m: Binding entity from annotated class: org.electric.model.DetectedQualityPicture
+2022-10-12 15:53:47.572 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-10-12 15:53:47.572 [36mDEBUG[m [task-1] [36mo.h.c.a.EntityBinder.bindEntity(430)[m: Import with entity name DetectedQualityPicture
+2022-10-12 15:53:47.572 [36mDEBUG[m [task-1] [36mo.h.c.a.EntityBinder.bindTable(873)[m: Bind entity org.electric.model.DetectedQualityPicture on table detected_quality_picture
+2022-10-12 15:53:47.574 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_quality_picture), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.574 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property id with lazy=false
+2022-10-12 15:53:47.575 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedQualityPicture:id]
+2022-10-12 15:53:47.575 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for id
+2022-10-12 15:53:47.575 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property id
+2022-10-12 15:53:47.576 [36mDEBUG[m [task-1] [36mo.h.c.BinderHelper.makeIdGenerator(644)[m: #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, uuid, ...)
+2022-10-12 15:53:47.576 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_quality_picture), mappingColumn=detected_bin_data, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.576 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property detectedBinData with lazy=false
+2022-10-12 15:53:47.576 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedQualityPicture:detectedBinData]
+2022-10-12 15:53:47.576 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for detectedBinData
+2022-10-12 15:53:47.577 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property detectedBinData
+2022-10-12 15:53:47.577 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_quality_picture), mappingColumn=device_picture_id, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.577 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property devicePictureId with lazy=false
+2022-10-12 15:53:47.577 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedQualityPicture:devicePictureId]
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for devicePictureId
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property devicePictureId
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.Ejb3Column.bind(213)[m: Binding column: Ejb3Column{table=org.hibernate.mapping.Table(detected_quality_picture), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makePropertyAndValue(175)[m: MetadataSourceProcessor property name with lazy=false
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.AbstractPropertyHolder.resolveAttributeConverterDescriptor(94)[m: Attempting to locate auto-apply AttributeConverter for property [org.electric.model.DetectedQualityPicture:name]
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.make(411)[m: building SimpleValue for name
+2022-10-12 15:53:47.578 [36mDEBUG[m [task-1] [36mo.h.c.a.PropertyBinder.makeProperty(266)[m: Building property name
+2022-10-12 15:53:47.579 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for id
+2022-10-12 15:53:47.580 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for detectedBinData
+2022-10-12 15:53:47.580 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for detectedPictureUrl
+2022-10-12 15:53:47.580 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for devicePictureId
+2022-10-12 15:53:47.581 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for name
+2022-10-12 15:53:47.581 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for id
+2022-10-12 15:53:47.582 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for detectedBinData
+2022-10-12 15:53:47.582 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for devicePictureId
+2022-10-12 15:53:47.582 [36mDEBUG[m [task-1] [36mo.h.c.a.SimpleValueBinder.fillSimpleValue(456)[m: Starting fillSimpleValue for name
+2022-10-12 15:53:47.582 [36mDEBUG[m [task-1] [36mo.h.m.PrimaryKey.addColumn(35)[m: Forcing column [id] to be non-null as it is part of the primary key for table [detected_device_picture]
+2022-10-12 15:53:47.583 [36mDEBUG[m [task-1] [36mo.h.m.PrimaryKey.addColumn(35)[m: Forcing column [id] to be non-null as it is part of the primary key for table [detected_quality_picture]
+2022-10-12 15:53:47.584 [33mWARN [m [task-1] [33mo.h.i.UUIDHexGenerator.<init>(42)[m: HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-10-12 15:53:47.600 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryImpl.<init>(203)[m: Building session factory
+2022-10-12 15:53:47.601 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(68)[m: SessionFactory name : null
+2022-10-12 15:53:47.602 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(69)[m: Automatic flush during beforeCompletion(): enabled
+2022-10-12 15:53:47.602 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(70)[m: Automatic session close at end of transaction: disabled
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(72)[m: Statistics: disabled
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(74)[m: Deleted entity synthetic identifier rollback: disabled
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(75)[m: Default entity-mode: pojo
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(76)[m: Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(77)[m: Allow initialization of lazy state outside session : disabled
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(79)[m: Using BatchFetchStyle : LEGACY
+2022-10-12 15:53:47.603 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(80)[m: Default batch fetch size: -1
+2022-10-12 15:53:47.604 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(81)[m: Maximum outer join fetch depth: 2
+2022-10-12 15:53:47.604 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(82)[m: Default null ordering: NONE
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(83)[m: Order SQL updates by primary key: disabled
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(84)[m: Order SQL inserts for batching: disabled
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(86)[m: multi-tenancy strategy : NONE
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(88)[m: JTA Track by Thread: enabled
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(90)[m: Query language substitutions: {}
+2022-10-12 15:53:47.605 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(91)[m: Named query checking : enabled
+2022-10-12 15:53:47.607 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(93)[m: Second-level cache: disabled
+2022-10-12 15:53:47.607 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(94)[m: Second-level query cache: disabled
+2022-10-12 15:53:47.607 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(95)[m: Second-level query cache factory: null
+2022-10-12 15:53:47.609 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(96)[m: Second-level cache region prefix: null
+2022-10-12 15:53:47.611 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(97)[m: Optimize second-level cache for minimal puts: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(98)[m: Structured second-level cache entries: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(99)[m: Second-level cache direct-reference entries: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(100)[m: Automatic eviction of collection cache: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(102)[m: JDBC batch size: 15
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(103)[m: JDBC batch updates for versioned data: enabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(104)[m: Scrollable result sets: enabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(105)[m: Wrap result sets: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(106)[m: JDBC3 getGeneratedKeys(): enabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(107)[m: JDBC result set fetch size: null
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(108)[m: Connection release mode: ON_CLOSE
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(109)[m: Generate SQL with comments: disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(111)[m: JPA compliance - query : disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(112)[m: JPA compliance - closed-handling : disabled
+2022-10-12 15:53:47.612 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(113)[m: JPA compliance - lists : disabled
+2022-10-12 15:53:47.613 [36mDEBUG[m [task-1] [36mo.h.c.Settings.<init>(114)[m: JPA compliance - transactions : disabled
+2022-10-12 15:53:47.655 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryImpl.<init>(258)[m: Session factory constructed with filter configurations : {}
+2022-10-12 15:53:47.656 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryImpl.<init>(259)[m: Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=1.8, file.encoding.pkg=sun.io, sun.cpu.isalist=, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@67124395, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/rt.jar:/Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric/target/classes:/Users/yanshengfu/.m2/repository/cn/hutool/hutool-all/5.5.8/hutool-all-5.5.8.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.3.5.RELEASE/spring-boot-starter-data-jpa-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.5.RELEASE/spring-boot-starter-jdbc-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-jdbc/5.2.10.RELEASE/spring-jdbc-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/yanshengfu/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/Users/yanshengfu/.m2/repository/org/hibernate/hibernate-core/5.4.22.Final/hibernate-core-5.4.22.Final.jar:/Users/yanshengfu/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/Users/yanshengfu/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/Users/yanshengfu/.m2/repository/net/bytebuddy/byte-buddy/1.10.17/byte-buddy-1.10.17.jar:/Users/yanshengfu/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/yanshengfu/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/yanshengfu/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/Users/yanshengfu/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/Users/yanshengfu/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar:/Users/yanshengfu/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar:/Users/yanshengfu/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar:/Users/yanshengfu/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/yanshengfu/.m2/repository/org/springframework/data/spring-data-jpa/2.3.5.RELEASE/spring-data-jpa-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/data/spring-data-commons/2.3.5.RELEASE/spring-data-commons-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-orm/5.2.10.RELEASE/spring-orm-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-context/5.2.10.RELEASE/spring-context-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-tx/5.2.10.RELEASE/spring-tx-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-beans/5.2.10.RELEASE/spring-beans-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-aspects/5.2.10.RELEASE/spring-aspects-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/2.1.3.RELEASE/spring-cloud-starter-openfeign-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-starter/2.1.3.RELEASE/spring-cloud-starter-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-context/2.1.3.RELEASE/spring-cloud-context-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/security/spring-security-rsa/1.0.7.RELEASE/spring-security-rsa-1.0.7.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/yanshengfu/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/2.1.3.RELEASE/spring-cloud-openfeign-core-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.3.RELEASE/spring-cloud-netflix-ribbon-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.1.3.RELEASE/spring-cloud-netflix-archaius-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar:/Users/yanshengfu/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-web/5.2.10.RELEASE/spring-web-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/security/spring-security-crypto/5.3.5.RELEASE/spring-security-crypto-5.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/io/github/openfeign/feign-core/10.2.3/feign-core-10.2.3.jar:/Users/yanshengfu/.m2/repository/io/github/openfeign/feign-slf4j/10.2.3/feign-slf4j-10.2.3.jar:/Users/yanshengfu/.m2/repository/io/github/openfeign/feign-hystrix/10.2.3/feign-hystrix-10.2.3.jar:/Users/yanshengfu/.m2/repository/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.jar:/Users/yanshengfu/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/yanshengfu/.m2/repository/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar:/Users/yanshengfu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/yanshengfu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/yanshengfu/.m2/repository/com/google/guava/guava/16.0/guava-16.0.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/yanshengfu/.m2/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar:/Users/yanshengfu/.m2/repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar:/Users/yanshengfu/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/yanshengfu/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar:/Users/yanshengfu/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/yanshengfu/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/yanshengfu/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/yanshengfu/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/yanshengfu/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/yanshengfu/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/yanshengfu/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/yanshengfu/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/yanshengfu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.5.RELEASE/spring-boot-devtools-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot/2.3.5.RELEASE/spring-boot-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.5.RELEASE/spring-boot-autoconfigure-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yanshengfu/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/yanshengfu/.m2/repository/net/java/dev/jna/jna/5.3.0/jna-5.3.0.jar:/Users/yanshengfu/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.1.2/mybatis-spring-boot-starter-2.1.2.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.5.RELEASE/spring-boot-starter-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/yanshengfu/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/yanshengfu/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.2/mybatis-spring-boot-autoconfigure-2.1.2.jar:/Users/yanshengfu/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar:/Users/yanshengfu/.m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.3.5.RELEASE/spring-boot-starter-aop-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-aop/5.2.10.RELEASE/spring-aop-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.5.RELEASE/spring-boot-starter-web-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.5.RELEASE/spring-boot-starter-json-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.3/jackson-datatype-jdk8-2.11.3.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3.jar:/Users/yanshengfu/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.3/jackson-module-parameter-names-2.11.3.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-webmvc/5.2.10.RELEASE/spring-webmvc-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-expression/5.2.10.RELEASE/spring-expression-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yanshengfu/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-core/5.2.10.RELEASE/spring-core-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-jcl/5.2.10.RELEASE/spring-jcl-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/spring-test/5.2.10.RELEASE/spring-test-5.2.10.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.3.5.RELEASE/spring-boot-starter-actuator-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.5.RELEASE/spring-boot-actuator-autoconfigure-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.5.RELEASE/spring-boot-actuator-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/io/micrometer/micrometer-core/1.5.6/micrometer-core-1.5.6.jar:/Users/yanshengfu/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/yanshengfu/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/yanshengfu/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/2.3.5.RELEASE/spring-boot-starter-log4j2-2.3.5.RELEASE.jar:/Users/yanshengfu/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/yanshengfu/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/yanshengfu/.m2/repository/org/apache/logging/log4j/log4j-jul/2.13.3/log4j-jul-2.13.3.jar:/Users/yanshengfu/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/Users/yanshengfu/.m2/repository/com/alibaba/druid-spring-boot-starter/1.1.22/druid-spring-boot-starter-1.1.22.jar:/Users/yanshengfu/.m2/repository/com/alibaba/druid/1.1.22/druid-1.1.22.jar:/Users/yanshengfu/.m2/repository/com/alibaba/fastjson/1.2.68/fastjson-1.2.68.jar:/Users/yanshengfu/.m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2.jar:/Users/yanshengfu/.m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar:/Users/yanshengfu/.m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar:/Users/yanshengfu/.m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar:/Users/yanshengfu/.m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1.jar:/Users/yanshengfu/.m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2.jar:/Users/yanshengfu/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar:/Users/yanshengfu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.39/tomcat-embed-jasper-9.0.39.jar:/Users/yanshengfu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.39/tomcat-embed-core-9.0.39.jar:/Users/yanshengfu/.m2/repository/org/apache/tomcat/tomcat-annotations-api/9.0.39/tomcat-annotations-api-9.0.39.jar:/Users/yanshengfu/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.39/tomcat-embed-el-9.0.39.jar:/Users/yanshengfu/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar:/Users/yanshengfu/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/Users/yanshengfu/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/Users/yanshengfu/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.3.1/javax.servlet.jsp-api-2.3.1.jar:/Users/yanshengfu/.m2/repository/com/gitee/qdbp/thirdparty/ueditor/1.4.3.3/ueditor-1.4.3.3.jar:/Users/yanshengfu/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/Users/yanshengfu/.m2/repository/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar:/Users/yanshengfu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/yanshengfu/.m2/repository/com/google/zxing/javase/3.4.0/javase-3.4.0.jar:/Users/yanshengfu/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/yanshengfu/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar:/Users/yanshengfu/.m2/repository/com/google/zxing/core/3.4.0/core-3.4.0.jar:/Users/yanshengfu/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, catalina.useNaming=false, user.timezone=Asia/Shanghai, os.name=Mac OS X, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib, sun.java.command=org.electric.StartElectricApplication, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource={
+	CreateTime:"2022-10-12 15:53:46",
+	ActiveCount:0,
+	PoolingCount:2,
+	CreateCount:2,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:264027430, ConnectTime:"2022-10-12 15:53:46", UseCount:0, LastActiveTime:"2022-10-12 15:53:46"},
+		{ID:1059108758, ConnectTime:"2022-10-12 15:53:46", UseCount:2, LastActiveTime:"2022-10-12 15:53:47"}
+	]
+}
+
+[
+	{
+	ID:264027430, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1059108758, 
+	poolStatements:[
+		]
+	}
+], hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@6a3194b8, com.sun.management.jmxremote=, javax.persistence.sharedCache.mode=UNSPECIFIED, spring.liveBeansView.mbeanDomain=, sun.cpu.endian=little, user.home=/Users/yanshengfu, user.language=zh, java.specification.vendor=Oracle Corporation, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre, file.separator=/, spring.output.ansi.enabled=always, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/classes, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_341-b10, user.name=yanshengfu, spring.jmx.enabled=true, path.separator=:, os.version=12.6, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/var/folders/79/9lm_3m_x3tb973fvx92s3w900000gn/T/, catalina.home=/Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric/tomcat_tmp/Tomcat, java.version=1.8.0_341, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=/Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, PID=6425, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, catalina.base=/Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric/tomcat_tmp/Tomcat, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@71b97eb5, java.library.path=/Users/yanshengfu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.341-b10, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeBig, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, java.ext.dirs=/Users/yanshengfu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, hibernate.connection.datasource={
+	CreateTime:"2022-10-12 15:53:46",
+	ActiveCount:0,
+	PoolingCount:2,
+	CreateCount:2,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:264027430, ConnectTime:"2022-10-12 15:53:46", UseCount:0, LastActiveTime:"2022-10-12 15:53:46"},
+		{ID:1059108758, ConnectTime:"2022-10-12 15:53:46", UseCount:2, LastActiveTime:"2022-10-12 15:53:47"}
+	]
+}
+
+[
+	{
+	ID:264027430, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1059108758, 
+	poolStatements:[
+		]
+	}
+], java.class.version=52.0}
+2022-10-12 15:53:47.670 [36mDEBUG[m [task-1] [36mo.h.s.s.JaccIntegrator.doIntegration(80)[m: Skipping JACC integration as it was not enabled
+2022-10-12 15:53:47.671 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryImpl.<init>(298)[m: Instantiated session factory
+2022-10-12 15:53:47.671 [36mDEBUG[m [task-1] [36mo.h.t.s.TypeConfiguration$Scope.scope(157)[m: Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7ad237e4] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@627cc84e]
+2022-10-12 15:53:47.690 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(60)[m: Not known whether passed class name [org.electric.model.DetectedQualityPicture] is safe
+2022-10-12 15:53:47.691 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(62)[m: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.electric.model.DetectedQualityPicture
+2022-10-12 15:53:47.702 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(60)[m: Not known whether passed class name [org.electric.model.DetectedQualityPicture] is safe
+2022-10-12 15:53:47.702 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(62)[m: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.electric.model.DetectedQualityPicture
+2022-10-12 15:53:47.864 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(60)[m: Not known whether passed class name [org.electric.model.DetectedDevicePicture] is safe
+2022-10-12 15:53:47.864 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(62)[m: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.electric.model.DetectedDevicePicture
+2022-10-12 15:53:47.864 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(60)[m: Not known whether passed class name [org.electric.model.DetectedDevicePicture] is safe
+2022-10-12 15:53:47.864 [36mDEBUG[m [task-1] [36mo.h.b.i.ClassLoaderAccessImpl.classForName(62)[m: No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : org.electric.model.DetectedDevicePicture
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3882)[m: Static SQL for entity: org.electric.model.DetectedQualityPicture
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3887)[m:  Version select: select id from detected_quality_picture where id =?
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3890)[m:  Snapshot select: select detectedqu_.id, detectedqu_.detected_bin_data as detected2_1_, detectedqu_.device_picture_id as device_p3_1_, detectedqu_.name as name4_1_ from detected_quality_picture detectedqu_ where detectedqu_.id=?
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Insert 0: insert into detected_quality_picture (detected_bin_data, device_picture_id, name, id) values (?, ?, ?, ?)
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Update 0: update detected_quality_picture set detected_bin_data=?, device_picture_id=?, name=? where id=?
+2022-10-12 15:53:47.939 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Delete 0: delete from detected_quality_picture where id=?
+2022-10-12 15:53:47.952 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.s.QuerySpacesImpl.registerQuerySpace(174)[m: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@558186fe]
+2022-10-12 15:53:47.953 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedBinData
+2022-10-12 15:53:47.953 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : devicePictureId
+2022-10-12 15:53:47.953 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : name
+2022-10-12 15:53:47.954 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy.buildLoadPlan(150)[m: Building LoadPlan...
+2022-10-12 15:53:47.959 [36mDEBUG[m [task-1] [36mo.h.l.p.e.i.LoadQueryJoinAndFetchProcessor.processQuerySpaceJoins(102)[m: processing queryspace <gen:0>
+2022-10-12 15:53:47.961 [36mDEBUG[m [task-1] [36mo.h.l.p.b.s.LoadPlanTreePrinter.logTree(55)[m: LoadPlan(entity=org.electric.model.DetectedQualityPicture)
+    - Returns
+       - EntityReturnImpl(entity=org.electric.model.DetectedQualityPicture, querySpaceUid=<gen:0>, path=org.electric.model.DetectedQualityPicture)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=org.electric.model.DetectedQualityPicture)
+          - SQL table alias mapping - detectedqu0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2022-10-12 15:53:47.962 [36mDEBUG[m [task-1] [36mo.h.l.e.p.EntityLoader.<init>(137)[m: Static select for entity org.electric.model.DetectedQualityPicture [NONE]: select detectedqu0_.id as id1_1_0_, detectedqu0_.detected_bin_data as detected2_1_0_, detectedqu0_.device_picture_id as device_p3_1_0_, detectedqu0_.name as name4_1_0_ from detected_quality_picture detectedqu0_ where detectedqu0_.id=?
+2022-10-12 15:53:47.964 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.s.QuerySpacesImpl.registerQuerySpace(174)[m: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7aa22735]
+2022-10-12 15:53:47.964 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedBinData
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : devicePictureId
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : name
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy.buildLoadPlan(150)[m: Building LoadPlan...
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.l.p.e.i.LoadQueryJoinAndFetchProcessor.processQuerySpaceJoins(102)[m: processing queryspace <gen:0>
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.l.p.b.s.LoadPlanTreePrinter.logTree(55)[m: LoadPlan(entity=org.electric.model.DetectedQualityPicture)
+    - Returns
+       - EntityReturnImpl(entity=org.electric.model.DetectedQualityPicture, querySpaceUid=<gen:0>, path=org.electric.model.DetectedQualityPicture)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=org.electric.model.DetectedQualityPicture)
+          - SQL table alias mapping - detectedqu0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2022-10-12 15:53:47.965 [36mDEBUG[m [task-1] [36mo.h.l.e.p.EntityLoader.<init>(137)[m: Static select for entity org.electric.model.DetectedQualityPicture [READ]: select detectedqu0_.id as id1_1_0_, detectedqu0_.detected_bin_data as detected2_1_0_, detectedqu0_.device_picture_id as device_p3_1_0_, detectedqu0_.name as name4_1_0_ from detected_quality_picture detectedqu0_ where detectedqu0_.id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.l.Loader.<init>(38)[m: Static select for action ACTION_MERGE on entity org.electric.model.DetectedQualityPicture: select detectedqu0_.id as id1_1_0_, detectedqu0_.detected_bin_data as detected2_1_0_, detectedqu0_.device_picture_id as device_p3_1_0_, detectedqu0_.name as name4_1_0_ from detected_quality_picture detectedqu0_ where detectedqu0_.id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.l.Loader.<init>(38)[m: Static select for action ACTION_REFRESH on entity org.electric.model.DetectedQualityPicture: select detectedqu0_.id as id1_1_0_, detectedqu0_.detected_bin_data as detected2_1_0_, detectedqu0_.device_picture_id as device_p3_1_0_, detectedqu0_.name as name4_1_0_ from detected_quality_picture detectedqu0_ where detectedqu0_.id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3882)[m: Static SQL for entity: org.electric.model.DetectedDevicePicture
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3887)[m:  Version select: select id from detected_device_picture where id =?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.logStaticSQL(3890)[m:  Snapshot select: select detectedde_.id, detectedde_.detected_bin_data as detected2_0_, detectedde_.detected_picture_url as detected3_0_, detectedde_.device_picture_id as device_p4_0_, detectedde_.name as name5_0_ from detected_device_picture detectedde_ where detectedde_.id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Insert 0: insert into detected_device_picture (detected_bin_data, detected_picture_url, device_picture_id, name, id) values (?, ?, ?, ?, ?)
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Update 0: update detected_device_picture set detected_bin_data=?, detected_picture_url=?, device_picture_id=?, name=? where id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.e.AbstractEntityPersister.debugf(394)[m:  Delete 0: delete from detected_device_picture where id=?
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.s.QuerySpacesImpl.registerQuerySpace(174)[m: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@dca7bce]
+2022-10-12 15:53:47.971 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedBinData
+2022-10-12 15:53:47.972 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedPictureUrl
+2022-10-12 15:53:47.972 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : devicePictureId
+2022-10-12 15:53:47.972 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : name
+2022-10-12 15:53:47.972 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy.buildLoadPlan(150)[m: Building LoadPlan...
+2022-10-12 15:53:47.975 [36mDEBUG[m [task-1] [36mo.h.l.p.e.i.LoadQueryJoinAndFetchProcessor.processQuerySpaceJoins(102)[m: processing queryspace <gen:0>
+2022-10-12 15:53:47.976 [36mDEBUG[m [task-1] [36mo.h.l.p.b.s.LoadPlanTreePrinter.logTree(55)[m: LoadPlan(entity=org.electric.model.DetectedDevicePicture)
+    - Returns
+       - EntityReturnImpl(entity=org.electric.model.DetectedDevicePicture, querySpaceUid=<gen:0>, path=org.electric.model.DetectedDevicePicture)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=org.electric.model.DetectedDevicePicture)
+          - SQL table alias mapping - detectedde0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2022-10-12 15:53:47.976 [36mDEBUG[m [task-1] [36mo.h.l.e.p.EntityLoader.<init>(137)[m: Static select for entity org.electric.model.DetectedDevicePicture [NONE]: select detectedde0_.id as id1_0_0_, detectedde0_.detected_bin_data as detected2_0_0_, detectedde0_.detected_picture_url as detected3_0_0_, detectedde0_.device_picture_id as device_p4_0_0_, detectedde0_.name as name5_0_0_ from detected_device_picture detectedde0_ where detectedde0_.id=?
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.s.QuerySpacesImpl.registerQuerySpace(174)[m: Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@23da4f93]
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedBinData
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : detectedPictureUrl
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : devicePictureId
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.p.w.s.MetamodelGraphWalker.visitAttributeDefinition(146)[m: Visiting attribute path : name
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy.buildLoadPlan(150)[m: Building LoadPlan...
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.p.e.i.LoadQueryJoinAndFetchProcessor.processQuerySpaceJoins(102)[m: processing queryspace <gen:0>
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.p.b.s.LoadPlanTreePrinter.logTree(55)[m: LoadPlan(entity=org.electric.model.DetectedDevicePicture)
+    - Returns
+       - EntityReturnImpl(entity=org.electric.model.DetectedDevicePicture, querySpaceUid=<gen:0>, path=org.electric.model.DetectedDevicePicture)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=org.electric.model.DetectedDevicePicture)
+          - SQL table alias mapping - detectedde0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.e.p.EntityLoader.<init>(137)[m: Static select for entity org.electric.model.DetectedDevicePicture [READ]: select detectedde0_.id as id1_0_0_, detectedde0_.detected_bin_data as detected2_0_0_, detectedde0_.detected_picture_url as detected3_0_0_, detectedde0_.device_picture_id as device_p4_0_0_, detectedde0_.name as name5_0_0_ from detected_device_picture detectedde0_ where detectedde0_.id=?
+2022-10-12 15:53:47.977 [36mDEBUG[m [task-1] [36mo.h.l.Loader.<init>(38)[m: Static select for action ACTION_MERGE on entity org.electric.model.DetectedDevicePicture: select detectedde0_.id as id1_0_0_, detectedde0_.detected_bin_data as detected2_0_0_, detectedde0_.detected_picture_url as detected3_0_0_, detectedde0_.device_picture_id as device_p4_0_0_, detectedde0_.name as name5_0_0_ from detected_device_picture detectedde0_ where detectedde0_.id=?
+2022-10-12 15:53:47.978 [36mDEBUG[m [task-1] [36mo.h.l.Loader.<init>(38)[m: Static select for action ACTION_REFRESH on entity org.electric.model.DetectedDevicePicture: select detectedde0_.id as id1_0_0_, detectedde0_.detected_bin_data as detected2_0_0_, detectedde0_.detected_picture_url as detected3_0_0_, detectedde0_.device_picture_id as device_p4_0_0_, detectedde0_.name as name5_0_0_ from detected_device_picture detectedde0_ where detectedde0_.id=?
+2022-10-12 15:53:47.992 [36mDEBUG[m [task-1] [36mo.h.t.s.s.SchemaManagementToolCoordinator.process(57)[m: No actions specified; doing nothing
+2022-10-12 15:53:47.992 [32mINFO [m [task-1] [32mo.h.e.t.j.p.i.JtaPlatformInitiator.initiateService(52)[m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 15:53:47.993 [36mDEBUG[m [task-1] [36mo.h.q.s.NamedQueryRepository.checkNamedQueries(151)[m: Checking 0 named HQL queries
+2022-10-12 15:53:47.993 [36mDEBUG[m [task-1] [36mo.h.q.s.NamedQueryRepository.checkNamedQueries(167)[m: Checking 0 named SQL queries
+2022-10-12 15:53:47.998 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryRegistry.<init>(52)[m: Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@8e5a9a9
+2022-10-12 15:53:47.998 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryRegistry.addSessionFactory(74)[m: Registering SessionFactory: 278e33b6-5b50-4429-9a37-7f35f5dea743 (<unnamed>)
+2022-10-12 15:53:47.998 [36mDEBUG[m [task-1] [36mo.h.i.SessionFactoryRegistry.addSessionFactory(81)[m: Not binding SessionFactory to JNDI, no JNDI name configured
+2022-10-12 15:53:47.999 [36mDEBUG[m [task-2] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-connect
+2022-10-12 15:53:47.999 [36mDEBUG[m [task-2] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-recycle
+2022-10-12 15:53:48.752 [36mDEBUG[m [restartedMain] [36mo.h.s.i.StatisticsInitiator.initiateServiceInternal(101)[m: Statistics initialized [enabled=false]
+2022-10-12 15:53:50.491 [32mINFO [m [restartedMain] [32mo.e.StartElectricApplication.logStarted(61)[m: Started StartElectricApplication in 7.211 seconds (JVM running for 8.104)
+2022-10-12 15:53:50.928 [36mDEBUG[m [RMI TCP Connection(6)-127.0.0.1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-connect
+2022-10-12 15:53:50.929 [36mDEBUG[m [RMI TCP Connection(6)-127.0.0.1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-recycle
+2022-10-12 15:53:50.930 [36mDEBUG[m [RMI TCP Connection(6)-127.0.0.1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-connect
+2022-10-12 15:53:50.931 [36mDEBUG[m [RMI TCP Connection(6)-127.0.0.1] [36md.s.Connection.connectionLog(132)[m: {conn-10002} pool-recycle
+2022-10-12 15:58:47.017 [36mDEBUG[m [Druid-ConnectionPool-Destroy-283082170] [36md.s.Connection.connectionLog(132)[m: {conn-10001} closed
+2022-10-12 15:59:47.032 [36mDEBUG[m [Druid-ConnectionPool-Destroy-283082170] [36md.s.Connection.connectionLog(132)[m: {conn-10002} closed
+2022-10-12 16:16:06.315 [36mDEBUG[m [SpringContextShutdownHook] [36mo.h.i.SessionFactoryImpl.close(771)[m: HHH000031: Closing
+2022-10-12 16:16:06.317 [36mDEBUG[m [SpringContextShutdownHook] [36mo.h.t.s.TypeConfiguration$Scope.unsetSessionFactory(350)[m: Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@10a167a3] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@627cc84e]
+2022-10-12 16:16:06.328 [36mDEBUG[m [SpringContextShutdownHook] [36mo.h.s.i.AbstractServiceRegistryImpl.deRegisterChild(419)[m: Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2022-10-12 16:16:06.328 [36mDEBUG[m [SpringContextShutdownHook] [36mo.h.b.r.i.BootstrapServiceRegistryImpl.deRegisterChild(295)[m: Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2022-10-12 16:16:06.330 [32mINFO [m [SpringContextShutdownHook] [32mc.a.d.p.DruidDataSource.info(106)[m: {dataSource-1} closing ...
+2022-10-12 16:16:06.333 [32mINFO [m [SpringContextShutdownHook] [32mc.a.d.p.DruidDataSource.info(106)[m: {dataSource-1} closed

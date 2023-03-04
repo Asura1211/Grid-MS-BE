@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.electric.mapper.InspectMapper">
+
+    <select id="listByPage" resultType="java.util.Map">
+        SELECT id, deviceid, managerid, inspect_time, description, inspect_address,qualified,fault,scrap,picture, x, y,
+               replace(deviceid,deviceid,(select name from devices where id=deviceid)) device_name,
+               replace(managerid,managerid,(select real_name from manager where id=managerid)) real_name,
+                CASE state  WHEN '1' THEN '正常' WHEN '2' THEN '故障' WHEN '3' THEN '报废' ELSE '风险' END AS state
+               FROM inspect
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by inspect_time desc
+    </select>
+    <select id="listAll" resultType="java.util.Map">
+        SELECT replace(deviceid,deviceid,(select name from devices where id=deviceid)) device_name, replace(managerid,managerid,(select real_name from manager where id=managerid)) real_name, inspect_time,qualified,fault,scrap, description, inspect_address,state,devicePicture, x, y FROM inspect order by inspect_time desc
+    </select>
+
+</mapper>

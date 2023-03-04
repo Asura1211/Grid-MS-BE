@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.electric.mapper.ManagerMapper">
+
+    <select id="listByPage" resultType="org.electric.model.Manager">
+        SELECT id,real_name,username,password,age,sex,tel,create_time,head,role,email FROM manager
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by create_time desc
+    </select>
+    <select id="listAll" resultType="java.util.Map">
+        SELECT * FROM manager order by create_time desc
+    </select>
+    <select id="login" parameterType="org.electric.model.Manager" resultType="org.electric.model.Manager">
+        select id,real_name,username,password,age,sex,tel,create_time,head,role,email from manager where username=#{username}
+    </select>
+
+    <select id="statistics" resultType="java.util.Map">
+        SELECT real_name,id,
+                (SELECT COUNT(*) FROM inspect WHERE managerid=m.id AND state='1') qualified,
+                (SELECT COUNT(*) FROM inspect WHERE managerid=m.id AND state='2') fault,
+                (SELECT COUNT(*) FROM inspect WHERE managerid=m.id AND state='3') scrap,
+                (SELECT COUNT(*) FROM inspect WHERE managerid=m.id AND state='4') risk
+        FROM manager m
+    </select>
+
+    <select id="getNormalManager" resultType="org.electric.model.Manager">
+        SELECT * FROM manager
+        WHERE role is NULL or role LIKE "normal"
+        order by create_time asc
+    </select>
+
+    <select id="getIdByName" resultType="java.lang.String">
+        SELECT id FROM manager
+        WHERE real_name = #{realName}
+    </select>
+
+    <select id="getAllManagers" resultType="org.electric.model.Manager">
+        SELECT * FROM manager
+        order by create_time asc
+        limit 50
+    </select>
+</mapper>

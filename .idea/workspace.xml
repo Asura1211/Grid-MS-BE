@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb3b6998-9fe0-4ff7-9d2b-a5d74bc03a48" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/design_electric$StartElectricApplication.ic" NAME="StartElectricApplication Coverage Results" MODIFIED="1659938390066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.electric.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="302" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>start</find>
+      <find>mb</find>
+      <find>pq.size</find>
+      <find>DEFAULT</find>
+      <find>4</find>
+      <find>imgIndex</find>
+      <find>beforeimg</find>
+      <find>pq</find>
+      <find>url</find>
+      <find>upload</find>
+      <find>progressUpload</find>
+      <find>beforeAvatarUpload</find>
+      <find>name</find>
+      <find>list</find>
+      <find>filelist</find>
+      <find>successRes</find>
+      <find>fileList1</find>
+      <find>fileList</find>
+      <find>file</find>
+      <find>spring-context</find>
+      <find>127</find>
+      <find>binDa</find>
+      <find>return</find>
+      <find>ferignYoloDetectService</find>
+      <find>save</find>
+      <find>device_de</find>
+      <find>fe</find>
+      <find>Http</find>
+      <find>Httphea</find>
+      <find>study and</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>YoloTranslator_</replace>
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/DetectedDevicePicture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/controller/ExceptionRecordController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/mapper/DevicesChangeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/mapper/DevicesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/mapper/ProblemToSolveMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/mapper/ExceptionRecordMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/DevicesChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/ExceptionRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/Picture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/impl/ExceptionRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/ExceptionRecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/FerignYoloDetectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/ManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/controller/ProblemToSolveController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/ProblemToSolve.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/ProblemToSolveService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/utils/MyFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/utils/IPUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/DevicesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/tool/DeleteTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/tool/ReadFileTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/impl/DevicesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ManagerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/mapper/ManagerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/service/impl/ProblemToSolveServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/GfbUploadResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/StartElectricApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/model/GfbDetectResult.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/consts/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="0tb7pfw3" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DesignElectric" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local -DarchetypeCatalog=internal" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/resources/mapper/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1937" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectId" id="1oe9ij2orzj5NDVe0bpP6RvdnJq" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+              <item name="consts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="electric" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_electric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_electric" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/毕设/back/design_electric",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
+    "spring.configuration.checksum": "6e01875ee6e236e240bbb920e17de3df"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project_\new_project\back\design_electric\lib" />
+      <recent name="E:\project_\_proje\Back\design_electric\src\main\resources\yolov5s" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project_\_proje\Back\design_electric\src\main\resources\yolov5s" />
+      <recent name="E:\project_\_proje\Back\design_electric\src\main\resources\mapper" />
+      <recent name="D:\workspace\idea\design_electric\src\main\resources\mapper" />
+      <recent name="D:\workspace\idea\design_electric\src\main\java\org\electric\utils" />
+      <recent name="D:\workspace\idea\design_electric\src\main\java\org\electric\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.electric.utils" />
+      <recent name="org.electric.service" />
+      <recent name="org.electric.service.impl" />
+      <recent name="org.electric.mapper" />
+      <recent name="org.electric.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.electric.controller" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/admin/get_by_name/QQ20210603-0.png" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="QQ20210603-0.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/admin/get_by_name/QQ20210603-0.png" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="QQ20210603-0.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/admin/get_by_name/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="QQ20210603-0.png" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/admin/get_by_name/QQ20210603-0.png" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ImgAdjust">
+    <configuration name="ImgAdjust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.electric.tool.ImgAdjust" />
+      <module name="design_electric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.electric.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartElectricApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="design_electric" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.electric.StartElectricApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.electric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ImgAdjust" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImgAdjust" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1645796180305" text="@RequestParam" recursive="true" caseInsensitive="true" type="JAVA" history="1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb3b6998-9fe0-4ff7-9d2b-a5d74bc03a48" name="Default Changelist" comment="" />
+      <created>1613636318436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613636318436</updated>
+      <workItem from="1613636319569" duration="8511000" />
+      <workItem from="1613902107547" duration="302000" />
+      <workItem from="1613966448165" duration="41000" />
+      <workItem from="1614143847828" duration="12415000" />
+      <workItem from="1614483207072" duration="2319000" />
+      <workItem from="1614501432351" duration="3658000" />
+      <workItem from="1614505136154" duration="17282000" />
+      <workItem from="1614567832766" duration="1226000" />
+      <workItem from="1614597014940" duration="10515000" />
+      <workItem from="1614756962599" duration="1373000" />
+      <workItem from="1615191470318" duration="3548000" />
+      <workItem from="1615253250965" duration="12101000" />
+      <workItem from="1615342383556" duration="6613000" />
+      <workItem from="1615452525782" duration="15136000" />
+      <workItem from="1617892611702" duration="653000" />
+      <workItem from="1618384673683" duration="9105000" />
+      <workItem from="1618457166599" duration="4700000" />
+      <workItem from="1618668927593" duration="5034000" />
+      <workItem from="1618731505444" duration="3141000" />
+      <workItem from="1618809600053" duration="671000" />
+      <workItem from="1618815686321" duration="2518000" />
+      <workItem from="1619950156947" duration="11066000" />
+      <workItem from="1620009281204" duration="2082000" />
+      <workItem from="1620025163592" duration="778000" />
+      <workItem from="1620027203762" duration="731000" />
+      <workItem from="1620136024845" duration="187000" />
+      <workItem from="1620215307892" duration="2257000" />
+      <workItem from="1620219376437" duration="601000" />
+      <workItem from="1620225090845" duration="22000" />
+      <workItem from="1620225148447" duration="433000" />
+      <workItem from="1620303440150" duration="354000" />
+      <workItem from="1620391287583" duration="620000" />
+      <workItem from="1620393502847" duration="1420000" />
+      <workItem from="1620400066042" duration="1045000" />
+      <workItem from="1620430961575" duration="2704000" />
+      <workItem from="1620722481236" duration="411000" />
+      <workItem from="1620722918191" duration="77000" />
+      <workItem from="1621752217616" duration="1227000" />
+      <workItem from="1621933291354" duration="23000" />
+      <workItem from="1621951642704" duration="389000" />
+      <workItem from="1621990042972" duration="148000" />
+      <workItem from="1621990236550" duration="653000" />
+      <workItem from="1622103447014" duration="1418000" />
+      <workItem from="1622115774159" duration="254000" />
+      <workItem from="1622116052864" duration="31000" />
+      <workItem from="1622116393868" duration="1657000" />
+      <workItem from="1622187905495" duration="449000" />
+      <workItem from="1622266934651" duration="1180000" />
+      <workItem from="1625711523007" duration="1369000" />
+      <workItem from="1625731791781" duration="238000" />
+      <workItem from="1627305726569" duration="1076000" />
+      <workItem from="1635769800372" duration="480000" />
+      <workItem from="1636685952887" duration="4000" />
+      <workItem from="1638533201899" duration="3279000" />
+      <workItem from="1638668541117" duration="271000" />
+      <workItem from="1638926892192" duration="134000" />
+      <workItem from="1638927444184" duration="813000" />
+      <workItem from="1639357808202" duration="238000" />
+      <workItem from="1639362923209" duration="7501000" />
+      <workItem from="1639386193888" duration="801000" />
+      <workItem from="1639395326458" duration="1392000" />
+      <workItem from="1639396791178" duration="291000" />
+      <workItem from="1639397858679" duration="1446000" />
+      <workItem from="1639400618354" duration="121000" />
+      <workItem from="1639450051984" duration="20000" />
+      <workItem from="1639451162954" duration="244000" />
+      <workItem from="1639466985802" duration="1267000" />
+      <workItem from="1639487654776" duration="603000" />
+      <workItem from="1639489328961" duration="605000" />
+      <workItem from="1639491383817" duration="298000" />
+      <workItem from="1639527971495" duration="759000" />
+      <workItem from="1639531963266" duration="2000" />
+      <workItem from="1639549985965" duration="5000" />
+      <workItem from="1640523151884" duration="635000" />
+      <workItem from="1640575955062" duration="23000" />
+      <workItem from="1642173083819" duration="36000" />
+      <workItem from="1642218797343" duration="1835000" />
+      <workItem from="1642222207463" duration="2925000" />
+      <workItem from="1642235060322" duration="66000" />
+      <workItem from="1642237986118" duration="506000" />
+      <workItem from="1642649649032" duration="5655000" />
+      <workItem from="1642683425629" duration="880000" />
+      <workItem from="1642945020213" duration="1857000" />
+      <workItem from="1644418066643" duration="14958000" />
+      <workItem from="1644477020342" duration="13724000" />
+      <workItem from="1644548969752" duration="13215000" />
+      <workItem from="1645273475751" duration="3971000" />
+      <workItem from="1645320576731" duration="10000" />
+      <workItem from="1645429929885" duration="14474000" />
+      <workItem from="1645491502816" duration="12991000" />
+      <workItem from="1645514898342" duration="5318000" />
+      <workItem from="1645531484715" duration="3476000" />
+      <workItem from="1645535049667" duration="2682000" />
+      <workItem from="1645578897546" duration="17415000" />
+      <workItem from="1645608454205" duration="3110000" />
+      <workItem from="1645612469704" duration="6031000" />
+      <workItem from="1645689330840" duration="1261000" />
+      <workItem from="1645749871593" duration="985000" />
+      <workItem from="1645750897422" duration="1013000" />
+      <workItem from="1645751941910" duration="15091000" />
+      <workItem from="1645841156855" duration="11468000" />
+      <workItem from="1645882770082" duration="1049000" />
+      <workItem from="1645883894698" duration="799000" />
+      <workItem from="1645884745822" duration="2702000" />
+      <workItem from="1645925586357" duration="1471000" />
+      <workItem from="1645928700728" duration="535000" />
+      <workItem from="1645929644133" duration="112000" />
+      <workItem from="1645929849379" duration="73000" />
+      <workItem from="1646096741511" duration="929000" />
+      <workItem from="1646097683923" duration="13896000" />
+      <workItem from="1646182627298" duration="19762000" />
+      <workItem from="1646311061465" duration="1661000" />
+      <workItem from="1646312793299" duration="1070000" />
+      <workItem from="1646313907072" duration="4168000" />
+      <workItem from="1646354542560" duration="4533000" />
+      <workItem from="1647590190944" duration="610000" />
+      <workItem from="1649749493337" duration="1126000" />
+      <workItem from="1656161942913" duration="1347000" />
+      <workItem from="1656300036416" duration="28000" />
+      <workItem from="1658822283345" duration="205000" />
+      <workItem from="1658822498940" duration="60000" />
+      <workItem from="1658822581676" duration="1006000" />
+      <workItem from="1658823856140" duration="220000" />
+      <workItem from="1659865094760" duration="34345000" />
+      <workItem from="1660098566636" duration="124000" />
+      <workItem from="1662203566811" duration="1271000" />
+      <workItem from="1662278609029" duration="587000" />
+      <workItem from="1662358151274" duration="14000" />
+      <workItem from="1665216847377" duration="595000" />
+      <workItem from="1665230011299" duration="613000" />
+      <workItem from="1665300734575" duration="882000" />
+      <workItem from="1665301769136" duration="4628000" />
+      <workItem from="1665383231074" duration="625000" />
+      <workItem from="1665477549938" duration="31000" />
+      <workItem from="1665478002982" duration="8514000" />
+      <workItem from="1665497279261" duration="1177000" />
+      <workItem from="1665536224467" duration="6384000" />
+      <workItem from="1665560367675" duration="2000" />
+      <workItem from="1665561213172" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53583000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="1549" height="830" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" visible="true" weight="0.25083837" />
+      <window_info id="Structure" order="1" sideWeight="0.5010661" side_tool="true" weight="0.23994638" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25813448" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.33569404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.28524947" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21583514" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5017182" side_tool="true" weight="0.5042644" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Todo4me" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49828178" weight="0.5042644" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/softwares/maven/repository/ai/djl/api/0.11.0/api-0.11.0-sources.jar!/ai/djl/modality/cv/BufferedImageFactory.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/softwares/maven/repository/ai/djl/api/0.11.0/api-0.11.0-sources.jar!/ai/djl/modality/cv/BufferedImageFactory.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/softwares/maven/repository/ai/djl/api/0.11.0/api-0.11.0-sources.jar!/ai/djl/modality/cv/BufferedImageFactory.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/softwares/maven/repository/ai/djl/api/0.11.0/api-0.11.0-sources.jar!/ai/djl/modality/cv/BufferedImageFactory.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/tool/ReadFileTool.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>430</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>488</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>561</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java</url>
+          <line>230</line>
+          <properties class="org.electric.controller.UploadController" method="deleteTempPic">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/DevicesChangeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/dao/DetectedDevicePictureDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/DevicePictureMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/DevicesChangeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/DevicesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/ProblemToSolveMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/ExceptionRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/DetectedQualityPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/DevicePicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/Devices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/DevicesChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/ExceptionRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/Inspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/QualityPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/DevicePictureServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/ExceptionRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/FeignYoloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/InspectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/ExceptionRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/QualifiedService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/ProblemToSolve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/ProblemToSolveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/controller/ExceptionRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/utils/IPUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/utils/MyFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/DevicesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/utils/UploadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1076">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/tool/DeleteTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/tool/ReadFileTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/DevicesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ManagerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/mapper/ManagerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/impl/ProblemToSolveServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/controller/ProblemToSolveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1165">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/softwares/maven/repository/org/springframework/spring-web/5.2.10.RELEASE/spring-web-5.2.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/softwares/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Documents/Tencent Files/1253117525/FileRecv/UploadPanel(3).vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#deviceDetect#0;class#UploadController#0" />
+            <element signature="method#qualityDetect#0;class#UploadController#0" />
+            <element signature="method#uploadQualityPicture#0;class#UploadController#0" />
+            <element signature="method#findException#0;class#UploadController#0" />
+            <element signature="method#uploadGfbPicture#0;class#UploadController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/StartElectricApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/GfbUploadResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/GfbDetectResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/model/DetectedDevicePicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/service/FerignYoloDetectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/electric/consts/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="109" selection-start-line="18" selection-start-column="109" selection-end-line="18" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>design_electric</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

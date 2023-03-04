@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.electric.mapper.ProblemToSolveMapper">
+    <select id="listByPage" resultType="java.util.Map">
+        SELECT id,problem_outline,problem_description,problem_classification,problem_state,deadline,presenter,person_in_charge,other_information
+        FROM problem_to_solve
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        order by deadline DESC
+    </select>
+
+    <select id="listAll" resultType="java.util.Map">
+        SELECT * FROM problem_to_solve
+        order by deadline DESC
+    </select>
+</mapper>

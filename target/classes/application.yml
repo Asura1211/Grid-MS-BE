@@ -1,0 +1,77 @@
+server:
+  port: 82
+  servlet:
+    context-path: /
+    jsp:
+      init-parameters: true
+  tomcat:
+    uri-encoding: UTF-8
+    basedir: /Users/yanshengfu/Desktop/Project_Related/DianWang_Related/Object_Detect/back/design_electric/tomcat_tmp/Tomcat
+spring:
+  application:
+    name: design_electric
+  mvc:
+    view:
+      # jsp前缀
+      prefix: /WEB-INF/pages/
+      # jsp后缀
+      suffix: .jsp
+    static-path-pattern: /upload/picture/**
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    upload:
+      drive:
+        letter: c
+      base-path: upload
+      extend-path:
+        head-path: head
+        video-path: video
+        pic-path: pic
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      resolve-lazily: false
+      enabled: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver        #mysql驱动包
+    url: jdbc:mysql://localhost:3306/design_electric?serverTimezone=UTC&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: modestman
+    druid:
+      filters: stat
+      initial-size: 2
+      max-active: 300
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      test-on-borrow: false
+      test-while-idle: true
+      test-on-return: false
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: 200
+      validation-query: SELECT 1
+      filter:
+        log4j2:
+          enabled: true
+  resources:
+    static-locations: F:\pic_save\result_pic\
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.electric.model      #所有Entity别名类所在包
+  global-config:
+    db-config:
+      id-type: ASSIGN_UUID
+      logic-delete-value: 1 # 数据库删除字段,1代表删除
+      logic-not-delete-value: 0 # 0代表没删除
+    banner: false
+logging:
+  config: classpath:log4j2.xml
+  level:
+    cn.jay.repository: trace
+view:
+  path: /templates/**
+  resource: E:/qianduan/dist
